@@ -594,10 +594,7 @@ body {
 	--input-font-weight: bold;
 	--icon-color: var(--text-normal);
 	--code-background: var(--background-secondary);
-	--blockquote-background-color: var(--background-secondary);
-	
-	/* TODO add customization */
-	--accent-h: 213 !important;
+	--blockquote-background-color: var(--background-secondary);	
 
 	--icon-l-stroke-width: 2.5px;
 	--icon-stroke: 2.5px;
@@ -700,7 +697,6 @@ body {
 	--background-double-active: hsla(0, 0%, 100%, 0.267);
 	--titlebar-background-focused: var(--background-secondary);
 	--titlebar-background: var(--background-primary-alt);
-	--interactive-accent: var(--blue-3);
 	--text-accent: var(--blue-2);
 	--text-accent-hover: var(--blue-1);
 
@@ -1234,12 +1230,6 @@ body:not(.native-scrollbars) .modal-close-button {
 /* 	background-color: var(--background-active); */
 	
 	transition: var(--button-transition);
-}
-button.mod-cta {
-	background-color: var(--blue-3);
-}
-button.mod-cta:hover {
-	background-color: var(--blue-2);
 }
 input[type='text'], input[type='search'],
 input[type='email'], input[type='password'],
